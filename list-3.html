@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планер</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script>
+        document.addEventListener('DOMContentLoaded',() => {
+            createTodoApp(document.getElementById('list-3'),'Среда', key='list-3');
+        })
+    </script>
+    <style>
+        .nav_link{
+            display: inline-block;
+            margin-right: 50px;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <a class="nav_link" href="index.html">Понедельник</a>
+            <a class="nav_link" href="list-2.html">Вторник</a>
+            <a class="nav_link" href="#">Среда</a>
+            <a class="nav_link" href="list-4.html">Четверг</a>
+            <a class="nav_link" href="list-5.html">Пятница</a>
+            <a class="nav_link" href="list-6.html">Суббота</a>
+            <a class="nav_link" href="list-7.html">Воскресенье</a>
+        </nav>
+    </div>
+    <div id="list-3" class="container"></div>
+    <script src="js/todo-app.js"></script>
+
+    
+</body>
+</html>
